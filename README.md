@@ -7,6 +7,22 @@ Pop-up Japanese translation under a cursor.
 ## Requirements
 
 - Vim 8.1.1467
+- +popupwin
+
+## Installation
+
+```
+Plug 'kis9a/popupdict.vim'
+```
+
+## Usage
+
+Example
+```
+nnoremap gh :PopupDictionary<CR>
+nnoremap gl :CommandlineDictionary<CR>
+nnoremap <Leader>gh :ToggleCursorPopupDictionary<CR>
+```
 
 ## Variables
 
